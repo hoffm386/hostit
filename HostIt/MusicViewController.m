@@ -10,6 +10,8 @@
 
 @interface MusicViewController ()
 
+@property (nonatomic, strong) IBOutlet UILabel *textLabel;
+
 @end
 
 @implementation MusicViewController

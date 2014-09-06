@@ -16,7 +16,7 @@
             
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [[UITabBar appearance] setSelectedImageTintColor:[UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0f]];
+    [[UITabBar appearance] setSelectedImageTintColor:[UIColor colorWithRed:.992 green:.639 blue:.302 alpha:1.0f]];
     return YES;
 }
 
