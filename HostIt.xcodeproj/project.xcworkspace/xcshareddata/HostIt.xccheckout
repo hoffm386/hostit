@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3F8227C5-568A-4963-AF81-48B67538EE42</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HostIt</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>61BFE2839DF1ADE692C86C7F00C9C757018372E9</key>
+		<string>https://github.com/hoffm386/hostit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HostIt.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>61BFE2839DF1ADE692C86C7F00C9C757018372E9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hoffm386/hostit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>61BFE2839DF1ADE692C86C7F00C9C757018372E9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>61BFE2839DF1ADE692C86C7F00C9C757018372E9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>hostit</string>
+		</dict>
+	</array>
+</dict>
+</plist>

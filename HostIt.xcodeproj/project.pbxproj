@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		187A80D019BAD5EC00A1C6E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A80CF19BAD5EC00A1C6E7 /* main.m */; };
 		187A80D319BAD5EC00A1C6E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A80D219BAD5EC00A1C6E7 /* AppDelegate.m */; };
-		187A80D619BAD5EC00A1C6E7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A80D519BAD5EC00A1C6E7 /* FirstViewController.m */; };
-		187A80D919BAD5EC00A1C6E7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A80D819BAD5EC00A1C6E7 /* SecondViewController.m */; };
 		187A80DC19BAD5EC00A1C6E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187A80DA19BAD5EC00A1C6E7 /* Main.storyboard */; };
 		187A80DE19BAD5EC00A1C6E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187A80DD19BAD5EC00A1C6E7 /* Images.xcassets */; };
 		187A80EA19BAD5EC00A1C6E7 /* HostItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A80E919BAD5EC00A1C6E7 /* HostItTests.m */; };
+		480E5A7619BAE849001AB6F2 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E5A7519BAE849001AB6F2 /* MusicViewController.m */; };
+		480E5A7D19BAE86F001AB6F2 /* SuppliesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E5A7C19BAE86F001AB6F2 /* SuppliesViewController.m */; };
+		480E5A8019BAE890001AB6F2 /* TravelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E5A7F19BAE890001AB6F2 /* TravelViewController.m */; };
+		480E5A8319BAE93C001AB6F2 /* EnvironmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E5A8219BAE93C001AB6F2 /* EnvironmentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,15 +34,19 @@
 		187A80CF19BAD5EC00A1C6E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		187A80D119BAD5EC00A1C6E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		187A80D219BAD5EC00A1C6E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		187A80D419BAD5EC00A1C6E7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		187A80D519BAD5EC00A1C6E7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		187A80D719BAD5EC00A1C6E7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		187A80D819BAD5EC00A1C6E7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		187A80DB19BAD5EC00A1C6E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		187A80DD19BAD5EC00A1C6E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		187A80E319BAD5EC00A1C6E7 /* HostItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HostItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187A80E819BAD5EC00A1C6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187A80E919BAD5EC00A1C6E7 /* HostItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HostItTests.m; sourceTree = "<group>"; };
+		480E5A7419BAE849001AB6F2 /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		480E5A7519BAE849001AB6F2 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		480E5A7B19BAE86F001AB6F2 /* SuppliesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuppliesViewController.h; sourceTree = "<group>"; };
+		480E5A7C19BAE86F001AB6F2 /* SuppliesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuppliesViewController.m; sourceTree = "<group>"; };
+		480E5A7E19BAE890001AB6F2 /* TravelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelViewController.h; sourceTree = "<group>"; };
+		480E5A7F19BAE890001AB6F2 /* TravelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelViewController.m; sourceTree = "<group>"; };
+		480E5A8119BAE93C001AB6F2 /* EnvironmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnvironmentViewController.h; sourceTree = "<group>"; };
+		480E5A8219BAE93C001AB6F2 /* EnvironmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnvironmentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,15 +88,20 @@
 		187A80CC19BAD5EC00A1C6E7 /* HostIt */ = {
 			isa = PBXGroup;
 			children = (
+				480E5A7A19BAE85E001AB6F2 /* Images */,
 				187A80D119BAD5EC00A1C6E7 /* AppDelegate.h */,
 				187A80D219BAD5EC00A1C6E7 /* AppDelegate.m */,
-				187A80D419BAD5EC00A1C6E7 /* FirstViewController.h */,
-				187A80D519BAD5EC00A1C6E7 /* FirstViewController.m */,
-				187A80D719BAD5EC00A1C6E7 /* SecondViewController.h */,
-				187A80D819BAD5EC00A1C6E7 /* SecondViewController.m */,
 				187A80DA19BAD5EC00A1C6E7 /* Main.storyboard */,
 				187A80DD19BAD5EC00A1C6E7 /* Images.xcassets */,
 				187A80CD19BAD5EC00A1C6E7 /* Supporting Files */,
+				480E5A7419BAE849001AB6F2 /* MusicViewController.h */,
+				480E5A7519BAE849001AB6F2 /* MusicViewController.m */,
+				480E5A7B19BAE86F001AB6F2 /* SuppliesViewController.h */,
+				480E5A7C19BAE86F001AB6F2 /* SuppliesViewController.m */,
+				480E5A7E19BAE890001AB6F2 /* TravelViewController.h */,
+				480E5A7F19BAE890001AB6F2 /* TravelViewController.m */,
+				480E5A8119BAE93C001AB6F2 /* EnvironmentViewController.h */,
+				480E5A8219BAE93C001AB6F2 /* EnvironmentViewController.m */,
 			);
 			path = HostIt;
 			sourceTree = "<group>";
@@ -119,6 +130,13 @@
 				187A80E819BAD5EC00A1C6E7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		480E5A7A19BAE85E001AB6F2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,10 +238,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187A80D919BAD5EC00A1C6E7 /* SecondViewController.m in Sources */,
+				480E5A7619BAE849001AB6F2 /* MusicViewController.m in Sources */,
 				187A80D319BAD5EC00A1C6E7 /* AppDelegate.m in Sources */,
-				187A80D619BAD5EC00A1C6E7 /* FirstViewController.m in Sources */,
+				480E5A8019BAE890001AB6F2 /* TravelViewController.m in Sources */,
 				187A80D019BAD5EC00A1C6E7 /* main.m in Sources */,
+				480E5A8319BAE93C001AB6F2 /* EnvironmentViewController.m in Sources */,
+				480E5A7D19BAE86F001AB6F2 /* SuppliesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +364,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -356,6 +377,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -412,6 +434,7 @@
 				187A80EF19BAD5EC00A1C6E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		187A80F019BAD5EC00A1C6E7 /* Build configuration list for PBXNativeTarget "HostItTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +443,7 @@
 				187A80F219BAD5EC00A1C6E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
