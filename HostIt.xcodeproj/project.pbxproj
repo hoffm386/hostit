@@ -88,7 +88,6 @@
 		187A80CC19BAD5EC00A1C6E7 /* HostIt */ = {
 			isa = PBXGroup;
 			children = (
-				480E5A7A19BAE85E001AB6F2 /* Images */,
 				187A80D119BAD5EC00A1C6E7 /* AppDelegate.h */,
 				187A80D219BAD5EC00A1C6E7 /* AppDelegate.m */,
 				187A80DA19BAD5EC00A1C6E7 /* Main.storyboard */,
@@ -130,13 +129,6 @@
 				187A80E819BAD5EC00A1C6E7 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		480E5A7A19BAE85E001AB6F2 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
