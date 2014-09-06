@@ -119,12 +119,30 @@
 
 - (void)boxDeviceDidPressMultifunctionButton:(BOXDevice *)device
 {
-    [self pulseButton:self.multifunctionButton];
+    if (self.device.shouldConsumeEvents) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Volume Change Alert"
+                                                        message:@"Someone attempted to play/pause the music"
+                                                       delegate:nil
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
+        [alert show];
+    } else {
+        [self pulseButton:self.multifunctionButton];
+    }
 }
 
 - (void)boxDeviceDidLongPressMultifunctionButton:(BOXDevice *)device
 {
-    [self pulseButton:self.multifunctionButton];
+    if (self.device.shouldConsumeEvents) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Volume Change Alert"
+                                                        message:@"Someone attempted to play/pause the music"
+                                                       delegate:nil
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
+        [alert show];
+    } else {
+        [self pulseButton:self.multifunctionButton];
+    }
 }
 
 - (void)boxDeviceDidPressMinusButton:(BOXDevice *)device
@@ -144,7 +162,16 @@
 
 - (void)boxDeviceDidPressPlusButton:(BOXDevice *)device
 {
-    [self pulseButton:self.plusButton];
+    if (self.device.shouldConsumeEvents) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Volume Change Alert"
+                                                        message:@"Someone attempted to increase the volume"
+                                                       delegate:nil
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
+        [alert show];
+    } else {
+        [self pulseButton:self.plusButton];
+    }
 }
 
 - (void)boxDeviceDidChangeAudioRouteStatus:(BOXDevice *)device
