@@ -12,6 +12,9 @@
 		187A80DC19BAD5EC00A1C6E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187A80DA19BAD5EC00A1C6E7 /* Main.storyboard */; };
 		187A80DE19BAD5EC00A1C6E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187A80DD19BAD5EC00A1C6E7 /* Images.xcassets */; };
 		187A80EA19BAD5EC00A1C6E7 /* HostItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A80E919BAD5EC00A1C6E7 /* HostItTests.m */; };
+		1880FCE219BB1356003C9A14 /* BKDDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880FCDF19BB1356003C9A14 /* BKDDeviceViewController.m */; };
+		1880FCE319BB1356003C9A14 /* BKDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880FCE119BB1356003C9A14 /* BKDViewController.m */; };
+		1880FCE819BB13FC003C9A14 /* libBoxKitBeta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1880FCE719BB13FC003C9A14 /* libBoxKitBeta.a */; };
 		480E5A7619BAE849001AB6F2 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E5A7519BAE849001AB6F2 /* MusicViewController.m */; };
 		480E5A7D19BAE86F001AB6F2 /* SuppliesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E5A7C19BAE86F001AB6F2 /* SuppliesViewController.m */; };
 		480E5A8019BAE890001AB6F2 /* TravelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E5A7F19BAE890001AB6F2 /* TravelViewController.m */; };
@@ -39,6 +42,12 @@
 		187A80E319BAD5EC00A1C6E7 /* HostItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HostItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187A80E819BAD5EC00A1C6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187A80E919BAD5EC00A1C6E7 /* HostItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HostItTests.m; sourceTree = "<group>"; };
+		1880FCDE19BB1356003C9A14 /* BKDDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKDDeviceViewController.h; sourceTree = "<group>"; };
+		1880FCDF19BB1356003C9A14 /* BKDDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKDDeviceViewController.m; sourceTree = "<group>"; };
+		1880FCE019BB1356003C9A14 /* BKDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKDViewController.h; sourceTree = "<group>"; };
+		1880FCE119BB1356003C9A14 /* BKDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKDViewController.m; sourceTree = "<group>"; };
+		1880FCE619BB13FC003C9A14 /* BOXDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOXDevice.h; sourceTree = "<group>"; };
+		1880FCE719BB13FC003C9A14 /* libBoxKitBeta.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBoxKitBeta.a; sourceTree = "<group>"; };
 		480E5A7419BAE849001AB6F2 /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
 		480E5A7519BAE849001AB6F2 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 		480E5A7B19BAE86F001AB6F2 /* SuppliesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuppliesViewController.h; sourceTree = "<group>"; };
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1880FCE819BB13FC003C9A14 /* libBoxKitBeta.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +80,7 @@
 		187A80C119BAD5EC00A1C6E7 = {
 			isa = PBXGroup;
 			children = (
+				1880FCE519BB13FC003C9A14 /* BoxKitBeta */,
 				187A80CC19BAD5EC00A1C6E7 /* HostIt */,
 				187A80E619BAD5EC00A1C6E7 /* HostItTests */,
 				187A80CB19BAD5EC00A1C6E7 /* Products */,
@@ -88,6 +99,10 @@
 		187A80CC19BAD5EC00A1C6E7 /* HostIt */ = {
 			isa = PBXGroup;
 			children = (
+				1880FCDE19BB1356003C9A14 /* BKDDeviceViewController.h */,
+				1880FCDF19BB1356003C9A14 /* BKDDeviceViewController.m */,
+				1880FCE019BB1356003C9A14 /* BKDViewController.h */,
+				1880FCE119BB1356003C9A14 /* BKDViewController.m */,
 				187A80D119BAD5EC00A1C6E7 /* AppDelegate.h */,
 				187A80D219BAD5EC00A1C6E7 /* AppDelegate.m */,
 				187A80DA19BAD5EC00A1C6E7 /* Main.storyboard */,
@@ -129,6 +144,15 @@
 				187A80E819BAD5EC00A1C6E7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1880FCE519BB13FC003C9A14 /* BoxKitBeta */ = {
+			isa = PBXGroup;
+			children = (
+				1880FCE619BB13FC003C9A14 /* BOXDevice.h */,
+				1880FCE719BB13FC003C9A14 /* libBoxKitBeta.a */,
+			);
+			path = BoxKitBeta;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +258,9 @@
 				187A80D319BAD5EC00A1C6E7 /* AppDelegate.m in Sources */,
 				480E5A8019BAE890001AB6F2 /* TravelViewController.m in Sources */,
 				187A80D019BAD5EC00A1C6E7 /* main.m in Sources */,
+				1880FCE219BB1356003C9A14 /* BKDDeviceViewController.m in Sources */,
 				480E5A8319BAE93C001AB6F2 /* EnvironmentViewController.m in Sources */,
+				1880FCE319BB1356003C9A14 /* BKDViewController.m in Sources */,
 				480E5A7D19BAE86F001AB6F2 /* SuppliesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +381,25 @@
 				INFOPLIST_FILE = HostIt/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BoxKitBeta",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CoreBluetooth,
+					"-framework",
+					"AVFoundation\n-ObjC",
+					"-framework",
+					CoreBluetooth,
+					"-framework",
+					"AVFoundation\n-ObjC",
+					"-framework",
+					CoreBluetooth,
+					"-framework",
+					"AVFoundation\n",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -368,6 +413,25 @@
 				INFOPLIST_FILE = HostIt/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BoxKitBeta",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CoreBluetooth,
+					"-framework",
+					"AVFoundation\n-ObjC",
+					"-framework",
+					CoreBluetooth,
+					"-framework",
+					"AVFoundation\n-ObjC",
+					"-framework",
+					CoreBluetooth,
+					"-framework",
+					"AVFoundation\n",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
