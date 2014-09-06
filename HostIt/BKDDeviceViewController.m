@@ -50,6 +50,7 @@
                               otherButtonTitles:nil] show];
         }
     }];
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -218,5 +219,6 @@
     self.isAudioRouteSegment.selectedSegmentIndex = (self.device.isCurrentAudioRoute ? 1 : 0);
     [self.consumeEventSwitch setOn:self.device.shouldConsumeEvents animated:NO];
 }
+
 
 @end
