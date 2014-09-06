@@ -16,6 +16,7 @@
 		480E5A7D19BAE86F001AB6F2 /* SuppliesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E5A7C19BAE86F001AB6F2 /* SuppliesViewController.m */; };
 		480E5A8019BAE890001AB6F2 /* TravelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E5A7F19BAE890001AB6F2 /* TravelViewController.m */; };
 		480E5A8319BAE93C001AB6F2 /* EnvironmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E5A8219BAE93C001AB6F2 /* EnvironmentViewController.m */; };
+		480E5A8519BB0868001AB6F2 /* CreteRound-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 480E5A8419BB0868001AB6F2 /* CreteRound-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		480E5A7F19BAE890001AB6F2 /* TravelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelViewController.m; sourceTree = "<group>"; };
 		480E5A8119BAE93C001AB6F2 /* EnvironmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnvironmentViewController.h; sourceTree = "<group>"; };
 		480E5A8219BAE93C001AB6F2 /* EnvironmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnvironmentViewController.m; sourceTree = "<group>"; };
+		480E5A8419BB0868001AB6F2 /* CreteRound-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CreteRound-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		187A80CC19BAD5EC00A1C6E7 /* HostIt */ = {
 			isa = PBXGroup;
 			children = (
+				480E5A8419BB0868001AB6F2 /* CreteRound-Regular.ttf */,
 				187A80D119BAD5EC00A1C6E7 /* AppDelegate.h */,
 				187A80D219BAD5EC00A1C6E7 /* AppDelegate.m */,
 				187A80DA19BAD5EC00A1C6E7 /* Main.storyboard */,
@@ -213,6 +216,7 @@
 			files = (
 				187A80DC19BAD5EC00A1C6E7 /* Main.storyboard in Resources */,
 				187A80DE19BAD5EC00A1C6E7 /* Images.xcassets in Resources */,
+				480E5A8519BB0868001AB6F2 /* CreteRound-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
