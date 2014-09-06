@@ -101,14 +101,11 @@
 		187A80CC19BAD5EC00A1C6E7 /* HostIt */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				1880FCDE19BB1356003C9A14 /* BKDDeviceViewController.h */,
 				1880FCDF19BB1356003C9A14 /* BKDDeviceViewController.m */,
 				1880FCE019BB1356003C9A14 /* BKDViewController.h */,
 				1880FCE119BB1356003C9A14 /* BKDViewController.m */,
-=======
 				480E5A8419BB0868001AB6F2 /* CreteRound-Regular.ttf */,
->>>>>>> FETCH_HEAD
 				187A80D119BAD5EC00A1C6E7 /* AppDelegate.h */,
 				187A80D219BAD5EC00A1C6E7 /* AppDelegate.m */,
 				187A80DA19BAD5EC00A1C6E7 /* Main.storyboard */,
